@@ -1,6 +1,6 @@
 module.exports = (req, res) => {
   res.json({
-    body: {Date.now()},
+    body: req.body,
     query: req.query,
     cookies: req.cookies,
   })
