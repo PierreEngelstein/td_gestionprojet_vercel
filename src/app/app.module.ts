@@ -26,8 +26,7 @@ import { JokesComponent } from "./jokes/jokes.component";
       { path: "youtubers", component: YoutubersPageComponent },
       { path: "add", component: AddYoutuberPageComponent },
       { path: "salary", component: SalarieComponent },
-      { path: "jokes", component: JokesComponent },
-      { path: "*", redirectTo: "", pathMatch: "full" }
+      { path: "jokes", component: JokesComponent }
     ])
   ],
   declarations: [
